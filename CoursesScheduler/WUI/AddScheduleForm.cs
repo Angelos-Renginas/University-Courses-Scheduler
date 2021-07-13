@@ -31,11 +31,6 @@ namespace CoursesScheduler {
             SelectCourse();
         }
 
-        public struct HourZone {
-            public int StartHour;
-            public string FinishHour;
-        }
-
         #region Event Handlers
 
         private void ctrlCourseComboBox_SelectedIndexChanged(object sender, EventArgs e) {
